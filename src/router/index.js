@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Events from '../views/Events.vue'
 import Donate from '../views/Donate.vue'
+import Register from '../views/Register.vue'
 
 Vue.use(VueRouter)
 
@@ -29,10 +30,17 @@ Vue.use(VueRouter)
     path: '/donate',
     name: 'Donate',
     ccomponent: Donate
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    ccomponent: Register
   }
 ]
 
 const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes
 })
 
