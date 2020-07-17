@@ -1,6 +1,10 @@
 <template>
-  <div class="about">
-    <h1>This is a donation page</h1>
+  <div class="donate">
+    <h1>Donations</h1>
+    <p>
+      Thank you so much for choosing to make a donation! Click <br>
+      donate button to be redirected to paypal.
+    </p>
 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_donations" />

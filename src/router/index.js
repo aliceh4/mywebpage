@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Events from '../views/Events.vue'
-import Donate from '../views/Donate.vue'
-import Register from '../views/Register.vue'
+//import Donate from '../views/Donate.vue'
+//import Register from '../views/Register.vue'
 
 Vue.use(VueRouter)
 
@@ -24,17 +24,20 @@ Vue.use(VueRouter)
   {
     path: '/events',
     name: 'Events',
-    component: Events
+    component: Events,
+    children: [
+      
+    ]
   },
   {
     path: '/donate',
     name: 'Donate',
-    ccomponent: Donate
+    component: () => import(/* webpackChunkName: "about" */ '../views/Donate.vue')
   },
   {
     path: '/register',
     name: 'Register',
-    ccomponent: Register
+    component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
   }
 ]
 
