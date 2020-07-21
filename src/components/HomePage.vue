@@ -1,17 +1,21 @@
 <template>
-  <div class="hello">
+  <div class="homepage">
     <h1>{{ msg }}</h1>
+
     <p>
       We are the Parents and Children Education Club.<br>
       Check out
       <a href="http://pceclub.org/portal/index.php" target="_blank" rel="noopener">our website</a> 
       for more information.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
+
+    <h3>Meetings</h3>
+    <p>
+      With COVID-19 preventing in-person events, meetings <br>
+      for the PCE Club will be held virtually through zoom. <br>
+      Please navigate to the events section of this page <br>
+      for more information.
+    </p>
   </div>
 </template>
 
