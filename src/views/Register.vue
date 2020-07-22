@@ -1,7 +1,15 @@
 <template>
   <div class="register">
-    <h1>Registration</h1>
-    <img alt="zoom logo" src="../assets/zoomlogo.jpg" width=300px>
-    <p>Include description of the event and everything...</p>
+    <br>
+    <h1>Join the Meeting</h1>
+    <br>
+    <img alt="zoom logo" src="../assets/zoomlogo.jpg" width=200px>
+    <br>
+    <br>
+    <p>Click the button below to navigate to the Zoom registration page.</p>
+    <div class="register-buttons">
+        <b-button pill variant="outline-primary" class="btn" 
+         href="https://zoom.us/meeting/register/tJUudOigpjksGdTyt_QUuBru7A3qkjez4aaf">Register for the meeting!</b-button>
+    </div>
   </div>
 </template>

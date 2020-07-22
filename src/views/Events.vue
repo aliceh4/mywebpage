@@ -2,12 +2,12 @@
   <div class="events">
     <br>
     <h1>Events</h1>
-    <img alt="Event picture" src="../assets/eventpage.jpg" width=400px>
+    <img alt="Event picture" src="../assets/eventpage.jpg" width=300px>
     <p>
-        <br> 
+      <br> 
       Many PCE club events are free of cost, so we would greatly <br>
       appreciate it if you could take the time to make a donation <br>
-      to our group! If not, just press the register button to get <br>
+      for our group! If not, just press the register button to get <br>
       access to our meeting right away.
     </p>
     <div class="event-buttons">
